@@ -28,7 +28,7 @@
 	<dict>
 	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
-		<false/>
+		<true/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
@@ -48,5 +48,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Sesli komut vermek için mikrofon erişimi gerekiyor</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Sesli komutları metne çevirmek için konuşma tanıma gerekiyor</string>
 </dict>
 </plist>
